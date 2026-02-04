@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "mm",
+			"path": "."
+		},
+		{
+			"name": "cbb",
+			"path": "../cbb"
+		}
+	],
+	"settings": {}
+}
