@@ -1,8 +1,8 @@
-# March Madness Predictive AI Model 🏀
+# March Madness Predictive AI Model
 
 An end-to-end Machine Learning pipeline designed to predict NCAA Tournament outcomes using historical performance data and ensemble learning techniques. This model achieved a **96th percentile finish** in national bracket challenges with an **84% individual matchup accuracy.**
 
-## 🚀 Performance Highlights
+## Performance Highlights
 | Metric | Result |
 | :--- | :--- |
 | **Matchup Accuracy** | 84% |
@@ -10,13 +10,13 @@ An end-to-end Machine Learning pipeline designed to predict NCAA Tournament outc
 | **Model Type** | Random Forest Classifier |
 | **Validation Method** | 5-Fold Cross-Validation |
 
-## 🛠️ The Tech Stack
+## The Tech Stack
 * **Language:** Python
 * **Data Science:** Pandas, NumPy, Scikit-Learn
 * **Database:** PostgreSQL (Data centralization and querying)
 * **Web Scraping:** BeautifulSoup4 (Acquiring 2023-2025 stats)
 
-## 📑 Project Overview
+## Project Overview
 The goal of this project was to move beyond "gut feeling" bracketology and build a system rooted in statistical probability. By combining historical data (2013–2022) with custom-scraped current season data, the model identifies the "DNA" of a winning team.
 
 ### Key Features:
@@ -25,7 +25,7 @@ The goal of this project was to move beyond "gut feeling" bracketology and build
 * **Ensemble Learning:** Utilized a **Random Forest** approach to reduce variance and prevent the overfitting common in single decision trees.
 * **Robust Validation:** Implemented 5-fold cross-validation to ensure the model's predictive power held up across different "upset" scenarios and seasonal outliers.
 
-## 📈 Methodology
+## Methodology
 1.  **Extraction:** Scraped and cleaned disparate data sources into a unified PostgreSQL schema.
 2.  **Transformation:** Normalized statistics to account for varying conference strengths.
 3.  **Training:** Trained the Random Forest model on 10 years of historical tournament results.
