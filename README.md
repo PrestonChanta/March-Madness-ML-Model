@@ -32,4 +32,5 @@ The goal of this project was to move beyond "gut feeling" bracketology and build
 4.  **Prediction:** Ran 2024/2025 seasonal data through the model to generate the "Optimal Bracket."
 
 ---
-*Note: Due to the seasonal nature of tournament hosting sites, live bracket visuals are currently unavailable during the off-season/reset period.*
+2026 Bracket as of 3/24/2026:
+![Bracket](2026.png)
